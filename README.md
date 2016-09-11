@@ -1,13 +1,11 @@
-# reactGo
+# Reactgo based applications.
 
 [![Dependency Status][dep-status-img]][dep-status-link] [![devDependency Status][dev-dep-status-img]][dev-dep-status-link]
-[![Gitter][gitter-img]][gitter-link] [![npm version][npm-badge]][npm-link]
+[![npm version][npm-badge]][npm-link]
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+> A test of the latest dependencies for each application. 
 
-> Your One-Stop solution for a full-stack app with ES6/ES2015 React.js featuring universal Redux, React Router, React Router Redux Hot reloading, CSS modules, Express 4.x, and multiple ORMs. :rocket:
-
-_Formerly known as choonkending/react-webpack-node_
+_Thanks to the react go team!_
 
 [dep-status-img]: https://david-dm.org/choonkending/react-webpack-node.svg
 [dep-status-link]: https://david-dm.org/choonkending/react-webpack-node
@@ -21,7 +19,7 @@ _Formerly known as choonkending/react-webpack-node_
 
 #### Demo site:
 
-[https://react-webpack-node.herokuapp.com/](https://react-webpack-node.herokuapp.com/)
+[An example app](https://mortonprod.co.uk/)
 
 ## Features:
 - ~~isomorphic~~ [**universal**](https://medium.com/@ghengeveld/isomorphism-vs-universal-javascript-4b47fb481beb#.4x2t3jlmx) Rendering

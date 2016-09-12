@@ -109,8 +109,8 @@ module.exports = [
         new webpack.DefinePlugin({
           __DEVCLIENT__: false,
           __DEVSERVER__: false
-        }),
-        new InlineEnviromentVariablesPlugin({ NODE_ENV: 'production' })
+        })
+     //   new InlineEnviromentVariablesPlugin({ NODE_ENV: 'production' })
     ],
     postcss: postCSSConfig
   }, {
@@ -152,8 +152,8 @@ module.exports = [
           __DEVCLIENT__: false,
           __DEVSERVER__: false
         }),
-        new webpack.IgnorePlugin(/vertx/),
-        new InlineEnviromentVariablesPlugin({ NODE_ENV: 'production' })
+        new webpack.IgnorePlugin(/vertx/)
+        //new InlineEnviromentVariablesPlugin({ NODE_ENV: 'production' })
     ],
     postcss: postCSSConfig
   }
